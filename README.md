@@ -2,7 +2,6 @@
 #  <p align = "center"> Blockchain-based E-voting System </p>
 <br>
 
-##  📌 This repository is created under  H2S Hackathon
 
 ## To run this website  click on this link below <br><br>
 ### Spheron : https://vote-3-0-1c0aa9.spheron.app/
