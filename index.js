@@ -1,3 +1,12 @@
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
 if(typeof window.ethereum =="undefined"){
     console.log("PLease install the metamask");
 }
@@ -187,3 +196,14 @@ let contract = new web3.eth.Contract(
 
 
 account();
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
